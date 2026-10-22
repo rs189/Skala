@@ -1,18 +1,3 @@
----
-license: mit
-pipeline_tag: text-classification
-base_model: sentence-transformers/all-MiniLM-L6-v2
-tags:
-  - prompt-routing
-  - llm-routing
-  - complexity-classification
-  - text-classification
-  - onnx
-  - cpu
-datasets:
-  - Nasim435/Multi-label-Prompt-Dataset
----
-
 # Skala
 
 ### A prompt-difficulty classifier for simple, medium, and complex model routing.
